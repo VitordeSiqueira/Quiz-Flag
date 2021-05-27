@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/3874/3874176.png" type="image/x-icon">
     <title>Quiz Flag</title>
+
 </head>
+
 <body onload="initial()">
 
     <div class="container">
@@ -20,7 +23,7 @@
                         <h2>Bandeira 1</h2>
                         <p>Bandeira de qual país </p>
                     </div>
-        
+
                     <div class="flag">
                         <img id="myImg" src="" alt="Bandeira">
                     </div>
@@ -28,24 +31,24 @@
 
                 <div class="answer">
                     <div class="alternatives">
-                        <input type="radio" name="opt" id="answer-1" value="A" >
+                        <input type="radio" name="opt" id="answer-1" value="A">
                         <label class="A label" for="answer-1"></label>
                         <br>
-                        
+
                         <input type="radio" name="opt" id="answer-2" value="B">
                         <label class="B label" for="answer-2"></label>
                         <br>
-                        
+
                         <input type="radio" name="opt" id="answer-3" value="C">
                         <label class="C label" for="answer-3"></label>
                         <br>
-                        
+
                         <input type="radio" name="opt" id="answer-4" value="D">
                         <label class="D label" for="answer-4"></label>
                         <br>
                     </div>
                 </div>
-<!-- apsod -->
+
                 <div class="buttons">
                     <button onclick="nextQuestion()">Próximo</button>
                 </div>
@@ -55,23 +58,23 @@
                 <h2>Questão 1/12</h2>
 
                 <div class="question-numbers">
-                        <span>1</span>
-                        <span>2</span>
-                        <span>3</span>
-                        <span>4</span>
-                        <span>5</span>
-                        <span>6</span>
-                        <span>7</span>
-                        <span>8</span>
-                        <span>9</span>
-                        <span>10</span>
-                        <span>11</span>
-                        <span>12</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                    <span>11</span>
+                    <span>12</span>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div class="myModal">
         <div class="modal-content">
             <h2>Parabéns 😀</h2>
@@ -81,4 +84,5 @@
     </div>
     <script src="./main.js"></script>
 </body>
+
 </html>
