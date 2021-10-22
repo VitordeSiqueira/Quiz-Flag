@@ -246,7 +246,7 @@ function newGame() {
     let myModal = document.querySelector('.myModal')
     myModal.style.display = "none"
 
-    for (let i = 0; i <= arraySpan.length; i++) {
+    for (let i = 0; i < arraySpan.length; i++) {
         arraySpan[i].classList.remove('active')
     }
 
